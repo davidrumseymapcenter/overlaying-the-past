@@ -1,52 +1,60 @@
 header:
-  - titles:
-      # @start locale config
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      tr      : &TR       Arşivdekiler
-      # @end locale config
-    url: /archive.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      tr      : &TR       Hakkında
-      # @end locale config
-    url: /about.html
+  - title: Home
+    url: /
+  - title: More Info
+    url: /#/
+webmap-workshop:
+  - title: Home
+    url: /
+  - title: Introduction
+    url: /introduction/
+    children:
+      - title: Web Mapping
+        url: /introduction/web-mapping/
+      - title: Anatomy of a Web Map
+        url: /introduction/web-map-anatomy/
+      - title: Overview of Frameworks & Libraries
+        url: /introduction/framework-overview/
+  - title: Setting Up
+    url: /setting-up/
+    children:
+      - title: Mapbox Account
+        url: /setting-up/mapbox-account/
+      - title: Visual Studio Code Editor
+        url: /setting-up/vs-code-editor/
+      - title: GitHub Account
+        url: /setting-up/github-account/
+      - title: Local Environment
+        url: /setting-up/local-environment/
+  - title: Adding a Base Map
+    url: /base-maps/
+    children:
+      - title: Mapbox Standard Styles
+        url: /base-maps/mapbox-styles/
+      - title: Other Base Map Providers
+        url: /base-maps/other-styles/
+  - title: Adding Historical Map Overlays
+    url: /historical-overlays/
+    children:
+      - title: Tilesets
+        url: /historical-overlays/tilesets/
+      - title: Other Overlay Options
+        url: /historical-overlays/other-overlay-options/
+      - title: Transparency Sliders
+        url: /historical-overlays/sliders/
+  - title: Adding Custom Data
+    url: /adding-data/
+    children:
+      - title: GeoJSON
+        url: /adding-data/geojson/
+      - title: Other Data Options
+        url: /adding-data/other-data-options/
+      - title: Popups
+        url: /adding-data/popups/
+  - title: Customizing and Finalizing
+    url: /customizing-finalizing/
+    children:
+      - title: Style Editing
+        url: /customizing-finalizing/style-editing/
+      - title: Depolying and Sharing
+        url: /customizing-finalizing/deploying-sharing/

@@ -4,22 +4,27 @@
   _sidebar_nav -%}
   <ul class="toc toc--navigator">
     {%- for _item in _sidebar_nav -%} {%- if _item.url -%}
-    <!-- Wrap the h1 in a link if it has a URL -->
+    <!-- Ensure the URL includes baseurl only once -->
+    {%- assign _item_url = _item.url | prepend: site.baseurl -%}
     <li class="toc-h1">
-      <a href="{{ _item.url }}">{{ _item.title }}</a>
+      <a href="{{ _item_url }}">{{ _item.title }}</a>
     </li>
     {%- else -%}
-    <!-- Otherwise, just display the title without a link -->
+    <!-- Display title without a link if no URL -->
     <li class="toc-h1">{{ _item.title }}</li>
-    {%- endif -%} {%- if _item.children -%} {%- for _child in _item.children -%}
-    {%- include snippets/get-nav-url.html path=_child.url -%} {%- assign
-    _nav_url = __return -%} {%- include snippets/get-nav-url.html path=page.url
-    -%} {%- assign _page_url = __return -%} {%- if _nav_url == _page_url -%}
+    {%- endif -%}
+
+    <!-- Handle child navigation -->
+    {%- if _item.children -%} {%- for _child in _item.children -%}
+    <!-- Normalize child URLs -->
+    {%- assign _child_url = _child.url | prepend: site.baseurl -%} {%- assign
+    _page_url = page.url | prepend: site.baseurl -%} {%- if _child_url ==
+    _page_url -%}
     <li class="toc-h2 active">
-      <a href="{{ _nav_url }}">{{ _child.title }}</a>
+      <a href="{{ _child_url }}">{{ _child.title }}</a>
     </li>
     {%- else -%}
-    <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+    <li class="toc-h2"><a href="{{ _child_url }}">{{ _child.title }}</a></li>
     {%- endif -%} {%- endfor -%} {%- endif -%} {%- endfor -%}
   </ul>
   {%- endif -%}

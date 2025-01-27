@@ -2,7 +2,7 @@
 layout: article
 title: Adding Popups
 show_title: false
-permalink: /historical-overlays/popups/
+permalink: /adding-data/popups/
 aside:
   toc: true
 sidebar:

@@ -1,89 +1,35 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+This beginner-level workshop is intended for anyone interested in overlaying and sharing historical spatial data in the web. We will use modern frameworks and applications including IIIF, Allmaps, ArcGIS Online, Visual Studio Code, and Mapbox to move from a scanned digital map image, to publishing a georeferenced overlay and extracted historical data on a web map. This workshop builds on previous workshops:
 
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
-[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
+- Discovering IIIF enabled historical maps online
+- Georeferencing maps using the Allmaps toolkit
+- Combining historical maps and spatial data with Mapbox GL JS
+- Depolying web maps online using GitHub Pages
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+The workshop aims to develop the fundamental knowledge and skills to begin sharing historical map overlays using web maps, while providing opportunities to ask questions along the way. There are two main sections: an introduction to web maps, and a hands-on where we will will learn to customize boilerplate code from within a source code editor to make an interactive map showing a historical map overlay and modern data, powered by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides).
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
+# What You Will Build
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+ <iframe height="600px" width="100%" src="https://davidrumseymapcenter.github.io/overlaying-the-past/maps/map1.html" title="Example webmap with historical map overlay"></iframe>
 
-**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
+# Agenda
 
-## Features
+| Time | Section                        | Objectives                                                                                                                     |
+| ---- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| 0:00 | Welcome                        | Who is this for?<br>What will we be covering?                                                                                  |
+| 0:10 | Introduction                   | What is a Web Map?<br>Which web mapping are best for me?                                                                       |
+| 0:35 | Setting Up                     | How do I set up my local environment?<br>How do I set up my MapBox account?                                                    |
+| 0:45 | Adding a Base Map              | What's important in a base map?<br>How do I add a base map?                                                                    |
+| 0:55 | Adding Historical Map Overlays | What are my options for adding historical map overlays?<br>How do I add an XYZ tileset?<br>How do I add a transparency slider? |
+| 1:05 | Adding Custom Data             | Which kinds of data can I add to my map?<br>How do I add a geojson layer?<br>How do I add a transparency slider?               |
+| 1:15 | Customizing and Finalizing     | How do I customize the style of my data?<br>What options do I have for sharing my web map in the web?                          |
+| 1:35 | Next Steps                     | Where do I go for help?<br>Which options do I have for creating web maps at scale?                                             |
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+# Pre-Workshop Setup
 
-## Skins
+You will need to arrived prepared for the workshop by:
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+1. Installing and configuring Visual Studio Code
+2. Setting up your free MapBox account
+3. Creating a free GitHub account
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
-
-## Documentation
-
-### Start
-
-- [Quick Start](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
-
-### Customization
-
-- [Configuration](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/authors)
-- [Internationalization](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/i18n)
-
-### Content
-
-- [Writing Posts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Additional styles](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles)
-- [Extensions](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/extensions)
-- [Markdown Enhancements](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/markdown-enhancements)
-
-## Demo Pages
-
-| Name | Description |
-| --- | --- |
-| [Home](https://kitian616.github.io/jekyll-TeXt-theme/test/) | Home page |
-| [Archive](https://kitian616.github.io/jekyll-TeXt-theme/archive.html) | Archive page |
-| [Layout Examples](https://kitian616.github.io/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
-
-## License
-
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+Each of these steps is detailed in the [Setting Up](#) section.

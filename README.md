@@ -7,10 +7,6 @@ This beginner-level workshop is intended for anyone interested in overlaying and
 
 The workshop aims to develop the fundamental knowledge and skills to begin sharing historical map overlays using web maps, while providing opportunities to ask questions along the way. There are two main sections: an introduction to web maps, and a hands-on where we will will learn to customize boilerplate code from within a source code editor to make an interactive map showing a historical map overlay and modern data, powered by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides).
 
-# What You Will Build
-
- <iframe height="600px" width="100%" src="https://davidrumseymapcenter.github.io/overlaying-the-past/maps/map1.html" title="Example webmap with historical map overlay"></iframe>
-
 # Agenda
 
 | Time | Section                        | Objectives                                                                                                                     |

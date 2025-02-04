@@ -19,7 +19,7 @@ For our web maps to be sharable in the web, we'll need to store and publish them
 
 `To Do`{:.info}
 
-1. Go to [github.com/signup](github.com/signup) and create an account.
+1. Go to [github.com/signup](https://github.com/signup) and create an account.
 2. Verify your account using the email you signed up with
 3. Sign into your account using your new credentials.
 4. From your [GitHub account dashboard](https://github.com/dashboard), click **_Create repository_** to create a new repository.

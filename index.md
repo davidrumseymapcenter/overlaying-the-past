@@ -24,7 +24,7 @@ The workshop aims to develop the fundamental knowledge and skills to begin shari
 
 # What You Will Build
 
- <iframe height="600px" width="100%" src="maps/map1.html" title="Example webmap with historical map overlay"></iframe>
+ <iframe height="600px" width="100%" src="/overlaying-the-past/maps/map1.html" title="Example webmap with historical map overlay"></iframe>
 
 # Agenda
 

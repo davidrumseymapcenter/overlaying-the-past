@@ -8,9 +8,6 @@ sidebar:
   nav: webmap-workshop
 ---
 
-This workshop is still being developed and not yet complete. Please excuse the mess.
-{:.warning}
-
 In the hands-on portion of this workshop, we'll use [Visual Studio Code (VS Code)](https://code.visualstudio.com/) to edit our web map's code. VS Code is a free software from Microsoft that offers a wide range of features designed to make coding easier. Its extensive repository of extensions allows you to customize its base features according to the type of coding work you do. For example, since we need to view our web map in a local server, we will install a plugin called **Live Server**.
 
 ## Download and Install VS Code

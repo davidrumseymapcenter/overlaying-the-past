@@ -26,6 +26,8 @@ webmap-workshop:
         url: /setting-up/github-account/
       - title: Local Environment
         url: /setting-up/local-environment/
+      - title: Map Boilerplate
+        url: /setting-up/map-boilerplate/
   - title: Adding a Base Map
     url: /base-maps/
     children:
@@ -56,5 +58,5 @@ webmap-workshop:
     children:
       - title: Style Editing
         url: /customizing-finalizing/style-editing/
-      - title: Depolying and Sharing
+      - title: Deploying and Sharing
         url: /customizing-finalizing/deploying-sharing/

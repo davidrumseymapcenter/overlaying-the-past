@@ -10,6 +10,9 @@ sidebar:
 
 A [boilerplate](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/) is a chunk of code that can be used as-is in multiple contexts and often provides the basis for more advanced operations. The boilerplate code for this workshop renders a basemap which we will tinker with and add to in order to build our own map.
 
+Mapbox Docs: [Display a map on a webpage](https://docs.mapbox.com/mapbox-gl-js/example/simple-map/)
+{:. .info}
+
 Now that we've seen what the boilerplate basemap for this workshop looks like, let’s explore the code behind it. Return to VS Code (your code editer). Your boilerplate should look like this:
 
 ```html

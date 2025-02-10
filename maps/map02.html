@@ -33,8 +33,23 @@
       const map = new mapboxgl.Map({
         container: "map", // container ID
         style: "mapbox://styles/mapbox/light-v11", // style URL
-        center: [-122.169462, 37.429889], // starting position [lng, lat]. Note that lat must be set between -90 and 90
-        zoom: 13, // starting zoom
+        center: [-122.373619, 37.830802], // starting position [lng, lat]. Note that lat must be set between -90 and 90
+        zoom: 8.5, // starting zoom
+      });
+
+      // Add a raster source to the map.
+      map.on("load", () => {
+        map.addSource("yourID", {
+          type: "raster",
+          tiles: ["https://allmaps.xyz/maps/fa991186305bd384/{z}/{x}/{y}.png"],
+          tileSize: 256,
+        });
+
+        map.addLayer({
+          id: "historical-overlay",
+          source: "yourID",
+          type: "raster",
+        });
       });
 
       // Add zoom and rotation controls to the map.

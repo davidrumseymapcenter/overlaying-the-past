@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js"></script>
+    <script src="maps/data.js"></script>
     <style>
       body {
         margin: 0;
@@ -23,10 +24,12 @@
         bottom: 0;
         width: 100%;
       }
+      /* transparency slider styles below */
     </style>
   </head>
   <body>
     <div id="map"></div>
+    <!-- Add a container for the transparency slider to the map. -->
     <script>
       mapboxgl.accessToken =
         "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNrazM1bGljZDBoZ3kycW51amJyczdmN2EifQ.XHo9_AXsxfh8pGqI4vB8yQ";
@@ -36,6 +39,11 @@
         center: [-122.169462, 37.429889], // starting position [lng, lat]. Note that lat must be set between -90 and 90
         zoom: 13, // starting zoom
       });
+      // Add variables for the slider and its value.
+
+      // Add a raster source to the map.
+
+      // Add an event listener for the slider.
 
       // Add zoom and rotation controls to the map.
       map.addControl(new mapboxgl.NavigationControl());

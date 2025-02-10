@@ -8,7 +8,7 @@ sidebar:
   nav: webmap-workshop
 ---
 
-Mapbox Docs: [Adjust a layer's opacity](https://docs.mapbox.com/mapbox-gl-js/example/adjust-layer-opacity/)
+Mapbox Example: [Adjust a layer's opacity](https://docs.mapbox.com/mapbox-gl-js/example/adjust-layer-opacity/)
 {:. .info}
 
 Since we probably want to be able to view the modern base map below the georeferenced map we just added, let's make transparency slider. A transparency slider (sometimes also called opacity slider) gradually reduces the transparency of a layer from 0% to 100% transparent. Other common ways of doing this are by using a [swipe method](https://github.com/mapbox/mapbox-gl-compare), or by [toggling layers](https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/).

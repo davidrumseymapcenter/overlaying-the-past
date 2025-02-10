@@ -9,9 +9,6 @@ sidebar:
   nav: webmap-workshop
 ---
 
-This workshop is still being developed and not yet complete. Please excuse the mess.
-{:.warning}
-
 # Overview
 
 This beginner-level workshop is intended for anyone interested in overlaying and sharing historical spatial data in the web. We will use modern frameworks and applications including [IIIF](https://iiif.io/), [Allmaps](https://allmaps.org/), [ArcGIS Online](https://www.arcgis.com/index.html), [Visual Studio Code](https://code.visualstudio.com/), and [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides) to move from a scanned digital map image, to publishing a georeferenced overlay and extracted historical data on a web map. This workshop builds on previous workshops:
@@ -24,7 +21,7 @@ The workshop aims to develop the fundamental knowledge and skills to begin shari
 
 # What You Will Build
 
- <iframe height="600px" width="100%" src="/overlaying-the-past/maps/map1.html" title="Example webmap with historical map overlay"></iframe>
+ <iframe height="600px" width="100%" src="/overlaying-the-past/maps/map04.html" title="Example webmap with historical map overlay"></iframe>
 
 # Agenda
 

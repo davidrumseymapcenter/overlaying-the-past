@@ -45,14 +45,7 @@ webmap-workshop:
   - title: Adding GeoJSON Data
     url: /adding-data/
     children:
-      - title: Other Data Options
-        url: /adding-data/other-data-options/
       - title: Popups
         url: /adding-data/popups/
-  - title: Customizing and Finalizing
-    url: /customizing-finalizing/
-    children:
-      - title: Style Editing
-        url: /customizing-finalizing/style-editing/
-      - title: Deploying and Sharing
-        url: /customizing-finalizing/deploying-sharing/
+  - title: Deploying and Sharing
+    url: /customizing-finalizing/deploying-sharing/

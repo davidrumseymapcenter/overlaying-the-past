@@ -13,9 +13,9 @@ sidebar:
 
 This beginner-level workshop is intended for anyone interested in overlaying and sharing historical spatial data in the web. We will use modern frameworks and applications including [IIIF](https://iiif.io/), [Allmaps](https://allmaps.org/), [ArcGIS Online](https://www.arcgis.com/index.html), [Visual Studio Code](https://code.visualstudio.com/), and [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides) to move from a scanned digital map image, to publishing a georeferenced overlay and extracted historical data on a web map. This workshop builds on previous workshops:
 
-- [Discovering IIIF enabled historical maps online](#)
-- [Georeferencing maps using the Allmaps toolkit](#)
-- [Combining historical maps and spatial data with Mapbox GL JS](#)
+- Discovering IIIF enabled historical maps online
+- Georeferencing maps using the Allmaps toolkit
+- [Digitizing features from an Allmaps georeferenced map](https://github.com/StanfordGeospatialCenter/Digitizing-features-from-an-allmaps-georeferenced-map)
 
 The workshop aims to develop the fundamental knowledge and skills to begin sharing historical map overlays using web maps, while providing opportunities to ask questions along the way. There are two main sections: an introduction to web maps, and a hands-on where we will will learn to customize boilerplate code from within a source code editor to make an interactive map showing a historical map overlay and modern data, powered by Mapbox GL JavaScript library.
 

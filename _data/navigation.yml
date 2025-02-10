@@ -38,17 +38,13 @@ webmap-workshop:
   - title: Adding Historical Map Overlays
     url: /historical-overlays/
     children:
-      - title: Tilesets
-        url: /historical-overlays/tilesets/
       - title: Other Overlay Options
         url: /historical-overlays/other-overlay-options/
       - title: Transparency Sliders
         url: /historical-overlays/sliders/
-  - title: Adding Custom Data
+  - title: Adding GeoJSON Data
     url: /adding-data/
     children:
-      - title: GeoJSON
-        url: /adding-data/geojson/
       - title: Other Data Options
         url: /adding-data/other-data-options/
       - title: Popups

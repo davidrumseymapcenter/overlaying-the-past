@@ -8,9 +8,9 @@ sidebar:
   nav: webmap-workshop
 ---
 
-Let's add our geoJSON data we made from our georeferenced map. By now you have already heard what geoJSON is and how it is structured, but if you want to know even more, [Tom Macwright's More than you ever wanted to know about GeoJSON](https://macwright.com/2015/03/23/geojson-second-bite) is a great read.
+Let's add our geoJSON data we made from our georeferenced map. By now you have already heard what geoJSON is and how it is structured, but if you want to know even more, [Tom Macwright's More than you ever wanted to know about GeoJSON](https://macwright.com/2015/03/23/geojson-second-bite){:target="\_blank"} is a great read.
 
-Mapbox Example: [Load data from an external GeoJSON file](https://docs.mapbox.com/mapbox-gl-js/example/external-geojson/).
+Mapbox Example: [Load data from an external GeoJSON file](https://docs.mapbox.com/mapbox-gl-js/example/external-geojson/){:target="\_blank"}.
 {:.info}
 
 ## Add a GeoJSON Source
@@ -46,7 +46,7 @@ map.on("load", () => {
 
 The next step is to add the source as a layer on your map, while also giving it some styling. Since styles in Mapbox GL JS are applied differently to points, lines, and polygons, you will need to choose the appropriate directions below. The full documentation on adding and styling layers is essential in understanding how to make your data layers look and feel the way that you want them.
 
-Mapbox Documentation: [Style Spec Reference for Mapbox Layers](https://docs.mapbox.com/style-spec/reference/layers/).
+Mapbox Documentation: [Style Spec Reference for Mapbox Layers](https://docs.mapbox.com/style-spec/reference/layers/){:target="\_blank"}.
 {:.info}
 
 ### Adding Points
@@ -98,7 +98,7 @@ map.addLayer({
 ```js
 map.addLayer({
   id: "example",
-  type: "fill",
+  type: "line",
   source: "datalayer",
   layout: {
     "line-join": "round",

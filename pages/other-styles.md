@@ -9,7 +9,7 @@ sidebar:
   nav: webmap-workshop
 ---
 
-You can add sources of base map data to your Mapbox maps as well, such as from [Stadia Maps](https://stadiamaps.com/products/maps/map-styles/), [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Basemap) ([JSON style](https://raw.githubusercontent.com/go2garret/maps/main/src/assets/json/openStreetMap.json)), [Carto](https://carto.com/basemaps), and others. You will need to find the style JSON endpoints from these base map providers, but can insert them as a source on your map by creating a custom variable:
+You can add sources of base map data to your Mapbox maps as well, such as from [Stadia Maps](https://stadiamaps.com/products/maps/map-styles/){:target="\_blank"}, [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Basemap){:target="\_blank"} ([JSON style](https://raw.githubusercontent.com/go2garret/maps/main/src/assets/json/openStreetMap.json){:target="\_blank"}), [Carto](https://carto.com/basemaps){:target="\_blank"}, and others. You will need to find the style JSON endpoints from these base map providers, but can insert them as a source on your map by creating a custom variable:
 
 ```js
 const basemap =

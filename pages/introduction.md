@@ -22,8 +22,8 @@ We'll be copying and pasting a lot. When working with code, **_syntax_** is extr
 
 ## Further Documentation
 
-The majority of the content covered in this workshop has been derived directly from the official [Mapbox GL JS documentation](https://docs.mapbox.com/mapbox-gl-js/guides/), ensuring that you're learning from authoritative and up-to-date sources. We've chosen Mapbox for several reasons: it's a modern platform that handles numerous aspects remarkably well and aligns closely with current industry standards. As always, it is a good idea to become familiar with the documentation offered by the code authors or distributors. Code lacking extensive documentation may be risky!
+The majority of the content covered in this workshop has been derived directly from the official [Mapbox GL JS documentation](https://docs.mapbox.com/mapbox-gl-js/guides/){:target="\_blank"}, ensuring that you're learning from authoritative and up-to-date sources. We've chosen Mapbox for several reasons: it's a modern platform that handles numerous aspects remarkably well and aligns closely with current industry standards. As always, it is a good idea to become familiar with the documentation offered by the code authors or distributors. Code lacking extensive documentation may be risky!
 
 ## Other Acknolwedgements
 
-UBC (University of British Columbia) Library has been creating [online data science learning modules](https://ubc-library-rc.github.io/), inlcuding for web maps, which are posted online. These workshops also informed how we proceed with learning here.
+UBC (University of British Columbia) Library has been creating [online data science learning modules](https://ubc-library-rc.github.io/){:target="\_blank"}, inlcuding for web maps, which are posted online. These workshops also informed how we proceed with learning here.

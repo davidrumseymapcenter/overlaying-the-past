@@ -8,7 +8,7 @@ sidebar:
   nav: webmap-workshop
 ---
 
-Let's try adding a new base map to our map. Mapbox comes with several options for styling your base map layer, which is documented in their [Styles API](https://docs.mapbox.com/api/maps/styles/) pages. For this workshop, we're going to switch from the boilerplate's satellite to imagery to something lighter and with labels for geographic features. This will work best when we overlay a historical map and data.
+Let's try adding a new base map to our map. Mapbox comes with several options for styling your base map layer, which is documented in their [Styles API](https://docs.mapbox.com/api/maps/styles/){:target="\_blank"} pages. For this workshop, we're going to switch from the boilerplate's satellite to imagery to something lighter and with labels for geographic features. This will work best when we overlay a historical map and data.
 
 `To Do`{:.info}
 

@@ -23,22 +23,22 @@ Your Mapbox account will give you access to all the resources offered by Mapbox.
 
 `To Do`{:.info}
 
-1. Head to [account.mapbox.com/auth/signup](https://account.mapbox.com/auth/signup/).
+1. Head to [account.mapbox.com/auth/signup](https://account.mapbox.com/auth/signup/){:target="\_blank"}.
 2. Select "Individual" for account type, fill in your information, agree to the terms, and submit.
 3. Check your inbox for a confirmation email and verify your account.
 4. Add your address for billing information – you don't need to provide payment information!
 
-Once you've completed this step, you'll have access to your [Mapbox account dashboard](https://console.mapbox.com/).
+Once you've completed this step, you'll have access to your [Mapbox account dashboard](https://console.mapbox.com/){:target="\_blank"}.
 
 ![Mapbox Account Dashboard](../../assets/images/mapbox-account-dashboard.png "Mapbox Account Dashboard")
 
 ## Create Your Mapbox Access Token
 
-Your Mapbox access token will provide API access to Mapbox GL JS so that we can build and test our maps locally and eventually deploy them to the web. For this workshop, we will create a new access token for testing, which you can optionally delete afterward. Mapbox's documentation provides [more information about securely using your access tokens](https://docs.mapbox.com/help/troubleshooting/how-to-use-mapbox-securely/#access-tokens).
+Your Mapbox access token will provide API access to Mapbox GL JS so that we can build and test our maps locally and eventually deploy them to the web. For this workshop, we will create a new access token for testing, which you can optionally delete afterward. Mapbox's documentation provides [more information about securely using your access tokens](https://docs.mapbox.com/help/troubleshooting/how-to-use-mapbox-securely/#access-tokens){:target="\_blank"}.
 
 `To Do`{:.info}
 
-1. From your [Mapbox account dashboard](https://console.mapbox.com/), click on **"Tokens"** in the left navigation.
+1. From your [Mapbox account dashboard](https://console.mapbox.com/){:target="\_blank"}, click on **"Tokens"** in the left navigation.
 2. At the top of the page, click the button **"+ Create a token"**.
 3. Give your token a name such as **_LDW2025-test_**.
 4. Optional: If you already know where you will be hosting your map, provide a URL restriction.

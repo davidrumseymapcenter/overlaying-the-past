@@ -10,7 +10,7 @@ sidebar:
 
 The essential processes and tools that make up your coding workspace are what we'll refer to as your "**_Local Development Environment_**" (LDE). This is more than just an arrangment of software on your computer; it's your personalized sandbox for experimentation, tinkering, and creating applications like web maps. An LDE for other types of programming or software engineering will differ from what you might prefer to use today.
 
-By this time in the workshop you've already installed VS Code and set up the Live Server extension, which are two essential components of the local development environment for building web maps. The other one we'll need is a modern web browser, such as [Google Chrome](#) or [Mozilla Firefox](#). Your development environment should be set up in a way that allows you to see both applications at the same time, or be able to switch between the two easily.
+By this time in the workshop you've already installed VS Code and set up the Live Server extension, which are two essential components of the local development environment for building web maps. The other one we'll need is a modern web browser, such as [Google Chrome](https://www.google.com/chrome/){:target="\_blank"} or [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/){:target="\_blank"}. Your development environment should be set up in a way that allows you to see both applications at the same time, or be able to switch between the two easily.
 
 ## Map Boilerplate
 

@@ -63,12 +63,12 @@ Web maps typically have around 20 zoom numbered levels. Zoom level 0 has the lea
 
 ### Map Tile Servers
 
-You might be wondering where all of these tiles are coming from. In many cases, they're being pre-rendered and delivered to you by a map tile server. Google, OpenStreetMap, Esri's ArcGIS Online, USGS, and NASA, are some of the more well-known sources of web map tiles. Stamen of San Francisco also provides [several beautiful map tile services](https://stadiamaps.com/stamen) through Stadia Maps, including the classic watercolor base map layer.
+You might be wondering where all of these tiles are coming from. In many cases, they're being pre-rendered and delivered to you by a map tile server. Google, OpenStreetMap, Esri's ArcGIS Online, USGS, and NASA, are some of the more well-known sources of web map tiles. Stamen of San Francisco also provides [several beautiful map tile services](https://stadiamaps.com/stamen){:target="\_blank"} through Stadia Maps, including the classic watercolor base map layer.
 
  <iframe height="600px" width="100%" src="/overlaying-the-past/maps/watercolor.html" title="Stamen Watercolor base map demo"></iframe>
 
 Map tiles are delivered using a predictably structured url, and because many of them are pre-rendered, we can link to them directly. For example:
-[tile.openstreetmap.org/17/21055/50820.png](https://tile.openstreetmap.org/17/21055/50820.png). Let's break this URL down:
+[tile.openstreetmap.org/17/21055/50820.png](https://tile.openstreetmap.org/17/21055/50820.png){:target="\_blank"}. Let's break this URL down:
 
 - **tile.openstreetmap.org** is the subdomain and domain from where these tiles are being served.
 - **/17** is the zoom level of the tile.

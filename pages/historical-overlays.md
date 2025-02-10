@@ -8,7 +8,7 @@ sidebar:
   nav: webmap-workshop
 ---
 
-[Mapbox documentation for adding sources](https://docs.mapbox.com/mapbox-gl-js/api/sources/) is the complete resource for adding data layers to your map.
+[Mapbox documentation for adding sources](https://docs.mapbox.com/mapbox-gl-js/api/sources/){:target="\_blank"} is the complete resource for adding data layers to your map.
 {:.info}
 
 Let's add our georeferenced map from Allmaps. To do this, we are going to add the georeferenced map as a source to our Mapbox map as an XYZ tile layer. We will need a few things first including the annotation ID (a 16-digit alpha numeric string) of the map in Allmaps. Once you have that ready, open your map boilerplate in VS Code.
@@ -37,7 +37,7 @@ map.on("load", () => {
 3. Change `yourID` with something more descriptive, like `sanFrancisco`. Don't use spaces.
 4. Save your map and view the changes in the browser.
 
-The recommended way to add an Allmaps tile source is by using a plugin, which will reduce the burden on the Allmaps tile servers and load maps faster. Unfortunately, there are no such plugin for Mapbox. There is currently a plugin integrating [OpenLayers and Allmaps](https://github.com/allmaps/allmaps/tree/main/packages/openlayers), and will soon be for MapLibre and Leaflet.
+The recommended way to add an Allmaps tile source is by using a plugin, which will reduce the burden on the Allmaps tile servers and load maps faster. Unfortunately, there are no such plugin for Mapbox. There is currently a plugin integrating [OpenLayers and Allmaps](https://github.com/allmaps/allmaps/tree/main/packages/openlayers){:target="\_blank"}, and will soon be for MapLibre and Leaflet.
 {:.warning}
 
 ## Change Starting Zoom Level and Position
@@ -46,7 +46,7 @@ You will likely have to change where your map loads, so that you don't have to z
 
 `To Do`{:.info}
 
-1. Find the approximate centerpoint of your map using [www.findlatlong.com](https://www.findlatlong.com/). Just relax and eyeball it.
+1. Find the approximate centerpoint of your map using [www.findlatlong.com](https://www.findlatlong.com/){:target="\_blank"}. Just relax and eyeball it.
 2. In VS Code, insert the lat/long values in the appropriate order. The order in our map's code is long/lat, or x/y like a computer would expect it.
 
 ```js

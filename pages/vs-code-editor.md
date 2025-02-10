@@ -8,7 +8,7 @@ sidebar:
   nav: webmap-workshop
 ---
 
-In the hands-on portion of this workshop, we'll use [Visual Studio Code (VS Code)](https://code.visualstudio.com/) to edit our web map's code. VS Code is a free software from Microsoft that offers a wide range of features designed to make coding easier. Its extensive repository of extensions allows you to customize its base features according to the type of coding work you do. For example, since we need to view our web map in a local server, we will install a plugin called **Live Server**.
+In the hands-on portion of this workshop, we'll use [Visual Studio Code (VS Code)](https://code.visualstudio.com/{:target="\_blank"} to edit our web map's code. VS Code is a free software from Microsoft that offers a wide range of features designed to make coding easier. Its extensive repository of extensions allows you to customize its base features according to the type of coding work you do. For example, since we need to view our web map in a local server, we will install a plugin called **Live Server**.
 
 ## Download and Install VS Code
 
@@ -16,14 +16,14 @@ You will need VS Code installed on your local computer for the hands-on portion 
 
 `To Do`{:.info}
 
-1. Head to [code.visualstudio.com/download](https://code.visualstudio.com/Download) and download the installer for your platform.
+1. Head to [code.visualstudio.com/download](https://code.visualstudio.com/Download){:target="\_blank"} and download the installer for your platform.
 2. Install the software on your computer and open the application.
 
 Once VS Code is installed, you are ready to proceed with installing your first extension.
 
 ## Install the Live Server Extension
 
-Once VS Code is installed, you can install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension. We'll use this to launch a local server, allowing us to view our web map as a working web application in a browser.
+Once VS Code is installed, you can install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="\_blank"} extension. We'll use this to launch a local server, allowing us to view our web map as a working web application in a browser.
 
 ![Live Server VS Code Extension](../../assets/images/live-server.png "Live Server VS Code Extension")
 

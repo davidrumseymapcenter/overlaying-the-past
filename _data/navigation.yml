@@ -18,14 +18,13 @@ webmap-workshop:
         url: /introduction/web-map-anatomy/
       - title: Overview of Frameworks & Libraries
         url: /introduction/framework-overview/
-  - title: Setting Up
-    url: /setting-up/
+  - title: Set Up
     children:
-      - title: Mapbox Account
-        url: /setting-up/mapbox-account/
       - title: Visual Studio Code Editor
         url: /setting-up/vs-code-editor/
-      - title: GitHub Account
+      - title: Mapbox Account (optional)
+        url: /setting-up/mapbox-account/
+      - title: GitHub Account (optional)
         url: /setting-up/github-account/
       - title: Local Environment
         url: /setting-up/local-environment/

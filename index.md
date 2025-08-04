@@ -41,6 +41,9 @@ The workshop aims to develop the fundamental knowledge and skills to begin shari
 
 # Pre-Workshop Setup
 
+Please install the latest version of [Visual Studio Code (VS Code)](https://code.visualstudio.com/){:target="\_blank"} for this workshop. More information can be found on the [Set Up - Visual Studio Code Editor](./setting-up/vs-code-editor/) page.
+{:. .info}
+
 The entirety of this workshop can be done with a modern web browser. We recommend having either [Mozilla FireFox](https://www.firefox.com/en-US/) or [Google Chrome](https://www.google.com/chrome/) installed before you attend.
 
 While attendees can choose to use the [web version of Visual Studio Code](https://vscode.dev/) (VS Code) to complete the hands-on activites in this workshop, the Desktop installation of VS can be easily customizable for a range of work with text-based data and code. We recommend downloading and installing on your computer the [latest version of VS Code](https://code.visualstudio.com/).

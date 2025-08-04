@@ -42,9 +42,9 @@ In this section we'll describe the two main components of a web map:
 
 Simply put, the base map is the reference layer used to understand where you are in the map. When you click and pan or zoom, you are seeing the base map move, which refreshes the **_map tiles_**. Understanding map tiles will help explain how this movement works.
 
-### Map Tiles
+### Raster Map Tiles
 
-Map tiles are square sections of geographic data that are loaded to your frame of view whenever you zoom or pan across a web map. Each tile measures 256px by 256px, typcially a PNG image, and about 20-4 kilobytes. These lightweight images load quickly over an internet connection. Base map tiles provide a geographic reference base for other data layers that you might add as data overlays. You've probably noticed them if you've had choppy internet connection and had to wait for data to load:
+Raster map tiles are square sections of geographic data that are loaded to your frame of view whenever you zoom or pan across a web map. Each tile measures 256px by 256px, typcially a PNG image, and about 20-40 kilobytes. These lightweight images load quickly over an internet connection. Base map tiles provide a geographic reference base for other data layers that you might add as data overlays. You've probably noticed them if you've had choppy internet connection and had to wait for data to load:
 
 ![Map Tiles refreshing slowly](../../assets/images/tiles.gif "Map Tiles refreshing slowly")
 
@@ -77,3 +77,13 @@ Map tiles are delivered using a predictably structured url, and because many of 
 - **.png** is the file format of the tile being served.
 
 This is the URL structure of an "xyz" (or "zxy") tileset.
+
+### Vector Tiles
+
+In recent years, vector tiles have become the preferred tile type for web mapping. Instead of pre-rendered images like PNGs, vector tiles store geometries and metadata, and are rendered on-the-fly. This introduces several improvements over raster tiles:
+
+- Removes discrete zoom levels.
+- Dynamic styling.
+- Supports oblique views and rotating.
+- Supports the use of a variety of projections.
+- Access to underlying data properties.

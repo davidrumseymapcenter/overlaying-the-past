@@ -4,10 +4,13 @@ header:
   - title: More Info
     url: /#/
 webmap-workshop:
-  - title: Home
-    url: /
+  - title: Start
+    children:
+      - title: Overview
+        url: /
+      - title: Workshop
+        url: /workshop/
   - title: Introduction
-    url: /introduction/
     children:
       - title: Web Mapping
         url: /introduction/web-mapping/

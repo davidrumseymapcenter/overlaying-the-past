@@ -14,10 +14,10 @@ sidebar:
 GET TO THIS SITE: **bit.ly/411knCQ**
 {:. .success}
 
-This beginner-level workshop is intended for anyone interested in overlaying and sharing historical spatial data in the web. We will use modern frameworks and applications including [IIIF](https://iiif.io/), [Allmaps](https://allmaps.org/), [ArcGIS Online](https://www.arcgis.com/index.html), [Visual Studio Code](https://code.visualstudio.com/), and [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides) to move from a scanned digital map image, to publishing a georeferenced overlay and extracted historical data on a web map. This workshop builds on previous workshops:
+This beginner-level workshop is intended for anyone interested in overlaying and sharing historical spatial data in the web. This workshop builds on previous workshops in a series which use modern frameworks and applications including [IIIF](https://iiif.io/), [Allmaps](https://allmaps.org/), [geojson.io](https://geojson.io), [Visual Studio Code](https://code.visualstudio.com/), and [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides) to move from a scanned digital map image, to publishing a georeferenced overlay and extracted historical data on a web map. Previous workshops:
 
 - Discovering IIIF enabled historical maps online
-- Georeferencing maps using the Allmaps toolkit
+- [Georeferencing maps using the Allmaps toolkit](https://sites.google.com/stanford.edu/georeferencingwithallmaps/home)
 - [Digitizing features from an Allmaps georeferenced map](https://github.com/StanfordGeospatialCenter/Digitizing-features-from-an-allmaps-georeferenced-map)
 
 The workshop aims to develop the fundamental knowledge and skills to begin sharing historical map overlays using web maps, while providing opportunities to ask questions along the way. There are two main sections: an introduction to web maps, and a hands-on where we will will learn to customize boilerplate code from within a source code editor to make an interactive map showing a historical map overlay and modern data, powered by Mapbox GL JavaScript library.
@@ -41,13 +41,17 @@ The workshop aims to develop the fundamental knowledge and skills to begin shari
 
 # Pre-Workshop Setup
 
-You will need to arrived prepared for the workshop by:
+The entirety of this workshop can be done with a modern web browser. We recommend having either [Mozilla FireFox](https://www.firefox.com/en-US/) or [Google Chrome](https://www.google.com/chrome/) installed before you attend.
+
+While attendees can choose to use the [web version of Visual Studio Code](https://vscode.dev/) (VS Code) to complete the hands-on activites in this workshop, the Desktop installation of VS can be easily customizable for a range of work with text-based data and code. We recommend downloading and installing on your computer the [latest version of VS Code](https://code.visualstudio.com/).
+
+<!-- You will need to arrived prepared for the workshop by:
 
 1. Installing and configuring Visual Studio Code
 2. Setting up your free MapBox account
 3. Creating a free GitHub account
 
-Each of these steps is detailed in the [Setting Up](/overlaying-the-past/setting-up/) section.
+Each of these steps is detailed in the [Setting Up](/overlaying-the-past/setting-up/) section.-->
 
 # Workshop Source Code
 

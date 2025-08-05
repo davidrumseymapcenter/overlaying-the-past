@@ -1,8 +1,6 @@
 header:
   - title: Home
     url: /
-  - title: More Info
-    url: /#/
 webmap-workshop:
   - title: Start
     children:

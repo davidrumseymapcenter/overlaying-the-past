@@ -28,16 +28,16 @@ The workshop aims to develop the fundamental knowledge and skills to begin shari
 
 # Agenda
 
-| Time | Section                        | Objectives                                                                                                                     |
-| ---- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| 0:00 | Welcome                        | Who is this for?<br>What will we be covering?                                                                                  |
-| 0:10 | Introduction                   | What is a Web Map?<br>Which web mapping are best for me?                                                                       |
-| 0:35 | Setting Up                     | How do I set up my local environment?<br>How do I set up my MapBox account?                                                    |
-| 0:45 | Adding a Base Map              | What's important in a base map?<br>How do I add a base map?                                                                    |
-| 0:55 | Adding Historical Map Overlays | What are my options for adding historical map overlays?<br>How do I add an XYZ tileset?<br>How do I add a transparency slider? |
-| 1:05 | Adding Custom Data             | Which kinds of data can I add to my map?<br>How do I add a geojson layer?<br>How do I add a transparency slider?               |
-| 1:15 | Customizing and Finalizing     | How do I customize the style of my data?<br>What options do I have for sharing my web map in the web?                          |
-| 1:35 | Next Steps                     | Where do I go for help?<br>Which options do I have for creating web maps at scale?                                             |
+| Time | Section      | Objectives                                                                                                                     |
+| ---- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| 0:00 | Start        | Who is this for?<br>What will we be covering?                                                                                  |
+| 0:10 | Introduction | What is a Web Map?<br>Which web mapping platforms are best for me?                                                             |
+| 0:35 | Set Up       | How do I set up my local environment?<br>How do I set up my Mapbox account?                                                    |
+| 0:45 | Base Maps    | What's important in a base map?<br>How do I add a base map?                                                                    |
+| 0:55 | Map Overlays | What are my options for adding historical map overlays?<br>How do I add an XYZ tileset?<br>How do I add a transparency slider? |
+| 1:05 | Map Data     | Which kinds of data can I add to my map?<br>How do I add a geojson layer?<br>How do I add a popup?                             |
+| 1:35 | Publishing   | What options do I have for sharing my web map in the web?<br>How can I host my map with Github?                                |
+| 1:55 | Next Steps   | Where do I go for help?<br>What are your ideas for continuing on?                                                              |
 
 # Pre-Workshop Setup
 

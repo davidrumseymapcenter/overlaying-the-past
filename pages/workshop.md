@@ -13,6 +13,8 @@ sidebar:
 
 This is the final workshop of a 4-part set where we have started from nothing, and are finishing by creating a web map ready to deploy online. The web map will display a georeferenced raster map and vector data that we've traced from the map in previous workshops in this series. In this final part of the series, we are going to focus on using a code editor to insert blocks of code one at a time to build a web map.
 
+There will be a number of activities to do as we progress through the workshop. Each one will start with `To Do`{:.info}, followed by the steps you will need to take to to the hands-on activity.
+
 ## Code Development
 
 We will not focus on learning how to write JavaScript, CSS, HTML, or any other code from scratch. Instead, the emphasis will be on getting hands-on experience by copying and pasting pre-written code into your development environment and observing how this code changes your web map. The primary objective is to help you become familiar with this process and gradually build the confidence to explore more advanced topics on your own.

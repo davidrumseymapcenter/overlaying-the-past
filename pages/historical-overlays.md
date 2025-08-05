@@ -37,7 +37,7 @@ map.on("load", () => {
 3. Change `yourID` with something more descriptive, like `sanFrancisco`. Don't use spaces.
 4. Save your map and view the changes in the browser.
 
-The recommended way to add an Allmaps tile source is by using a plugin, which will reduce the burden on the Allmaps tile servers and load maps faster. Unfortunately, there are no such plugin for Mapbox. There is currently a plugin integrating [OpenLayers and Allmaps](https://github.com/allmaps/allmaps/tree/main/packages/openlayers){:target="\_blank"}, and will soon be for MapLibre and Leaflet.
+The recommended way to add an Allmaps tile source is by using a plugin, which will reduce the burden on the Allmaps tile servers and load maps faster. Unfortunately, there are no such plugin for Mapbox. There are currently plugins integrating Allmaps with [OpenLayers](https://github.com/allmaps/allmaps/tree/main/packages/openlayers){:target="\_blank"}, [MapLibre](https://github.com/allmaps/allmaps/tree/main/packages/maplibre) and [Leaflet](https://github.com/allmaps/allmaps/tree/main/packages/leaflet). Implemeting these plugins and will be the theme of a future workshop.
 {:.warning}
 
 ## Change Starting Zoom Level and Position

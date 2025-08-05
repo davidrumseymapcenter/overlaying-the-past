@@ -38,5 +38,5 @@ But that's not all – [Mapbox Studio](https://www.mapbox.com/mapbox-studio){:ta
 1. Find a favorite photo on your computer, or use one from [Unsplash](https://unsplash.com/){:target="\_blank"}.
 2. Go to [Mapbox's Cartogram App](https://apps.mapbox.com/cartogram/#13.24/37.42876/-122.16741){:target="\_blank"} and drag/drop the photo to see the new base map layer style.
 3. Adjust the controls over the photo to your preferences.
-4. Click **_Saved style!_** to open the style in Mapbox Studio.
+4. If you are logged into your Mapbox account, click **_Saved style!_** to open the style in Mapbox Studio.
 5. Publish your new one-of-a-kind base map layer to use in your map!

@@ -30,7 +30,6 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
       rel="stylesheet"
     />
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js"></script>
-    <script src="./data.js" charset="utf-8"></script>
     <style>
       body {
         margin: 0;
@@ -42,17 +41,30 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
         bottom: 0;
         width: 100%;
       }
+      /* transparency slider styles below */
     </style>
   </head>
   <body>
     <div id="map"></div>
+    <!-- Add a container for the transparency slider to the map. -->
     <script>
-      mapboxgl.accessToken = "[your new Mapbox access token]"; // don't use your public access token!
+      mapboxgl.accessToken = "[your access token]"; // add your own access token. Don't use your default public one.
       const map = new mapboxgl.Map({
-        container: "map", // container ID which you can see in the <div> above
-        center: [-122.167486, 37.429214], // starting position [lng, lat]. Note that lat must be set between -90 and 90
-        zoom: 6, // starting zoom
+        container: "map", // container ID
+        style: "mapbox://styles/mapbox/satellite-v9", // style URL
+        center: [-122.169462, 37.429889], // starting position [lng, lat]. Note that lat must be set between -90 and 90
+        zoom: 13, // starting zoom
       });
+      // Add variables for the slider and its value.
+
+      // Add a raster source to the map.
+
+      // Add an event listener for the slider.
+
+      // Add your geojson data source here.
+
+      // Add zoom and rotation controls to the map.
+      map.addControl(new mapboxgl.NavigationControl());
     </script>
   </body>
 </html>
@@ -83,7 +95,3 @@ The HTML document is split into two main sections: the `head` and the `body`. Ea
   </body>
 </html>
 ```
-
-## Data Sources
-
-Beneath the Mapbox CSS and Javascript source links in the `head` is the line `<script src="./data.js" charset="utf-8"></script>`. This is a link to the map data, wrapped inside a JavaScript variable. You'll notice that this is linking to a file called **data.js** by using its relative path. Currently, that file is empty, but we will us our GeoJSON code from previous workshops to populate that file later on.

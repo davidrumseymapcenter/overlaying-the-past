@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Setting up your GitHub Account
-permalink: /setting-up/github-account/
+permalink: /publishing/github-account/
 aside:
   toc: true
 sidebar:

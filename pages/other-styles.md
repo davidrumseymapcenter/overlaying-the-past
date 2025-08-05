@@ -23,5 +23,5 @@ const map = new mapboxgl.Map({
 });
 ```
 
-No Mapbox access tokens are needed to use non-Mapbox base map layers.
-{:. .warning}
+<!-- Mapbox GL JS v3.x **requires** you to use a Mapbox-hosted style and include an access token. This workshop's boilerplate code uses v3.9.4.
+{:. .warning} -->

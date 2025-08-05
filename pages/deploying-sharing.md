@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Deploying and Sharing in the Web
-permalink: /customizing-finalizing/deploying-sharing/
+permalink: /publishing/deploying-sharing/
 aside:
   toc: true
 sidebar:

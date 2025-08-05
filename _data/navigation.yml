@@ -24,30 +24,35 @@ webmap-workshop:
         url: /setting-up/vs-code-editor/
       - title: Mapbox Account (optional)
         url: /setting-up/mapbox-account/
-      - title: GitHub Account (optional)
-        url: /setting-up/github-account/
       - title: Local Environment
         url: /setting-up/local-environment/
       - title: Map Boilerplate
         url: /setting-up/map-boilerplate/
-  - title: Adding a Base Map
-    url: /base-maps/
+  - title: Base Maps
     children:
+      - title: Adding a Base Map
+        url: /base-maps/
       - title: Mapbox Standard Styles
         url: /base-maps/mapbox-styles/
       - title: Other Base Map Providers
         url: /base-maps/other-styles/
-  - title: Adding Historical Map Overlays
-    url: /historical-overlays/
+  - title: Map Overlays
     children:
+      - title: Adding Historical Map Overlays
+        url: /historical-overlays/
       - title: Other Overlay Options
         url: /historical-overlays/other-overlay-options/
       - title: Transparency Sliders
         url: /historical-overlays/sliders/
-  - title: Adding GeoJSON Data
-    url: /adding-data/
+  - title: Map Data
     children:
+      - title: Adding GeoJSON Data
+        url: /adding-data/
       - title: Popups
         url: /adding-data/popups/
-  - title: Deploying and Sharing
-    url: /customizing-finalizing/deploying-sharing/
+  - title: Publishing
+    children:
+      - title: GitHub Account
+        url: /publishing/github-account/
+      - title: Deploying and Sharing
+        url: /publishing/deploying-sharing/

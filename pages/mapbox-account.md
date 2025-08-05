@@ -8,6 +8,9 @@ sidebar:
   nav: webmap-workshop
 ---
 
+Setting up a Mapbox account is highly recommended for this workshop, but not required.
+{:.warning}
+
 For this workshop, we're going to use the web map library **Mapbox GL JS** for our hands-on section to build a web map. Mapbox offers a robust suite of tools for building custom web-native mapping applications. The company has been around since the early 2010s and has remained a leader in offering innovative toolkits for web cartographers and web map developers.
 
 ## Mapbox GL JS Pricing

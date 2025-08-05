@@ -13,11 +13,11 @@ For this workshop we are using pure unframeworked JavaScript, also known as **_v
 
 ### Other Vanilla Code Libraries
 
-We've chosen Mapbox to work with today, but there are other vanilla JavaScript libraries for you to use for web maps.
+We've chosen Mapbox GL JS to work with today, but there are other vanilla JavaScript libraries for you to use for web maps.
 
-- [Leaflet](https://leafletjs.com/{:target="_blank"}) - Old reliable, free, open, no accounts needed. Minimal code that still works!
-- [OpenLayers](https://openlayers.org/){:target="\_blank"} - Another old reliable that has been actively developed recently. Free and open.
-- [MapLibre](https://maplibre.org/){:target="\_blank"} - Newish platform with active development. Free and open.
+- [Leaflet](https://leafletjs.com/{:target="_blank"}) - Reliable, free, open, no accounts needed. Minimal code that works!
+- [OpenLayers](https://openlayers.org/){:target="\_blank"} - Another mature and reliable library active development. Free and open.
+- [MapLibre](https://maplibre.org/){:target="\_blank"} - TypeScript library with active development. Free and open.
 - [D3](https://d3js.org/){:target="\_blank"} - D3.js (Data Driven Documents) has a steep learning curve, but allows for very elegant styling and interactions.
 
 ### Other Popular Web Map Frameworks

@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "label": "Oxford Market" },
+      "geometry": {
+        "coordinates": [-0.1396149685959358, 51.51635557409023],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Castle Street" },
+      "geometry": {
+        "coordinates": [-0.13777083286106517, 51.516637486538315],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Berners Street" },
+      "geometry": {
+        "coordinates": [-0.13590061615769855, 51.51608008708604],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Newman Street" },
+      "geometry": {
+        "coordinates": [-0.13472778792035456, 51.51627062586675],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Broad Street" },
+      "geometry": {
+        "coordinates": [-0.13661154600100645, 51.513331792336146],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Carnaby Street" },
+      "geometry": {
+        "coordinates": [-0.13951765746199385, 51.5138549834692],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Rupert Street" },
+      "geometry": {
+        "coordinates": [-0.13358928194426767, 51.51209634315131],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Vigo Street" },
+      "geometry": {
+        "coordinates": [-0.13953097656431623, 51.51015002239146],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Warwick Street" },
+      "geometry": {
+        "coordinates": [-0.13818330426454395, 51.51126499489553],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bridle Street" },
+      "geometry": {
+        "coordinates": [-0.1359209299836266, 51.51149741749532],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Tichborne Street" },
+      "geometry": {
+        "coordinates": [-0.13401036371541863, 51.51006917458449],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "King Street" },
+      "geometry": {
+        "coordinates": [-0.131643107234936, 51.512322132507165],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Marlborough Mews" },
+      "geometry": {
+        "coordinates": [-0.13962248924161713, 51.514894933114164],
+        "type": "Point"
+      }
+    }
+  ]
+}

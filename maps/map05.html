@@ -119,6 +119,45 @@
       });
 
       // Add your geojson data source here.
+      map.on("load", () => {
+        map.addSource("datalayer", {
+          type: "geojson",
+          data: "snow_water_pumps.geojson", // be sure filename and path matches yours.
+        });
+        // add your layer and styles here
+        map.addLayer({
+          id: "snow_water_pumps",
+          type: "circle",
+          source: "datalayer",
+          layout: {},
+          paint: {
+            "circle-radius": 10,
+            "circle-stroke-width": 2,
+            "circle-color": "#88c0d0",
+            "circle-stroke-color": "white",
+          },
+        });
+      });
+
+      // Add your popup event listener here.
+      map.on("click", "snow_water_pumps", (e) => {
+        new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(e.features[0].properties.label)
+          .addTo(map);
+      });
+      // Add a mouseover event listener to the layer.
+      // Change the cursor to a pointer when
+      // the mouse is over the pumps layer.
+      map.on("mouseenter", "snow_water_pumps", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+
+      // Change the cursor back to a pointer
+      // when it leaves the pumps layer.
+      map.on("mouseleave", "snow_water_pumps", () => {
+        map.getCanvas().style.cursor = "";
+      });
 
       // Add zoom and rotation controls to the map.
       map.addControl(new mapboxgl.NavigationControl());

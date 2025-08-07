@@ -12,7 +12,6 @@
       rel="stylesheet"
     />
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js"></script>
-    <script src="maps/data.js" charset="utf-8"></script>
     <style>
       body {
         margin: 0;
@@ -24,7 +23,7 @@
         bottom: 0;
         width: 100%;
       }
-      /* transparency slider styles below*/
+      /* transparency slider styles below */
       .map-overlay {
         font: bold 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
         position: absolute;
@@ -73,26 +72,27 @@
         />
       </div>
     </div>
-
     <script>
       mapboxgl.accessToken =
-        "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNtNmdvYTNscDAzOHkyanB3cnVkdDIyaHcifQ.TRYX2RX78Si_VD9zwfEsdQ";
+        "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNtZHlxeTk0YjA0cGsybHB5eWljY3k0OGUifQ.eYtbBUR1uwUOUFjRnx42zw"; // add your own access token. Don't use your default public one.
       const map = new mapboxgl.Map({
         container: "map", // container ID
         style: "mapbox://styles/mapbox/light-v11", // style URL
-        center: [-122.373619, 37.830802], // starting position [lng, lat]. Note that lat must be set between -90 and 90
-        zoom: 8.5, // starting zoom
+        center: [-0.13697, 51.51333], // starting position [lng, lat]. Note that lat must be set between -90 and 90
+        zoom: 15, // starting zoom
       });
-
-      // Add variables for the slider and its status.
+      // Add variables for the slider and its value.
       const slider = document.getElementById("slider");
       const sliderValue = document.getElementById("slider-value");
 
       // Add a raster source to the map.
       map.on("load", () => {
+        // This is an event listener that waits for the map to load before adding the source and layer.
         map.addSource("yourID", {
           type: "raster",
-          tiles: ["https://allmaps.xyz/maps/fa991186305bd384/{z}/{x}/{y}.png"],
+          tiles: [
+            "https://allmaps.xyz/images/45bbc7ea6e45e5c9/{z}/{x}/{y}.png",
+          ],
           tileSize: 256,
         });
 
@@ -118,21 +118,20 @@
         sliderValue.textContent = e.target.value + "%";
       });
 
-      // Add your geojson source here.
-
+      // Add your geojson data source here.
       map.on("load", () => {
         map.addSource("datalayer", {
           type: "geojson",
-          data: "export.geojson", // make sure this is what you saved your file as
+          data: "snow_water_pumps.geojson", // be sure filename and path matches yours.
         });
-
+        // add your layer and styles here
         map.addLayer({
-          id: "example",
+          id: "snow_water_pumps",
           type: "circle",
           source: "datalayer",
           layout: {},
           paint: {
-            "circle-radius": 4,
+            "circle-radius": 10,
             "circle-stroke-width": 2,
             "circle-color": "#88c0d0",
             "circle-stroke-color": "white",

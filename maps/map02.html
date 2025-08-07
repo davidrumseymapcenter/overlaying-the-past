@@ -23,25 +23,31 @@
         bottom: 0;
         width: 100%;
       }
+      /* transparency slider styles below */
     </style>
   </head>
   <body>
     <div id="map"></div>
+    <!-- Add a container for the transparency slider to the map. -->
     <script>
       mapboxgl.accessToken =
-        "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNtNmdvYTNscDAzOHkyanB3cnVkdDIyaHcifQ.TRYX2RX78Si_VD9zwfEsdQ";
+        "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNtZHlxeTk0YjA0cGsybHB5eWljY3k0OGUifQ.eYtbBUR1uwUOUFjRnx42zw"; // add your own access token. Don't use your default public one.
       const map = new mapboxgl.Map({
         container: "map", // container ID
         style: "mapbox://styles/mapbox/light-v11", // style URL
-        center: [-122.373619, 37.830802], // starting position [lng, lat]. Note that lat must be set between -90 and 90
-        zoom: 8.5, // starting zoom
+        center: [-0.13697, 51.51333], // starting position [lng, lat]. Note that lat must be set between -90 and 90
+        zoom: 15, // starting zoom
       });
+      // Add variables for the slider and its value.
 
       // Add a raster source to the map.
       map.on("load", () => {
+        // This is an event listener that waits for the map to load before adding the source and layer.
         map.addSource("yourID", {
           type: "raster",
-          tiles: ["https://allmaps.xyz/maps/fa991186305bd384/{z}/{x}/{y}.png"],
+          tiles: [
+            "https://allmaps.xyz/images/45bbc7ea6e45e5c9/{z}/{x}/{y}.png",
+          ],
           tileSize: 256,
         });
 
@@ -51,6 +57,10 @@
           type: "raster",
         });
       });
+
+      // Add an event listener for the slider.
+
+      // Add your geojson data source here.
 
       // Add zoom and rotation controls to the map.
       map.addControl(new mapboxgl.NavigationControl());

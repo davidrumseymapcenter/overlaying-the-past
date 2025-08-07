@@ -75,6 +75,7 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
   <body>
     <div id="map"></div>
     <!-- Add a container for the transparency slider to the map. -->
+
     <script>
       mapboxgl.accessToken = "[your access token]"; // add your own access token. Don't use your default public one.
       const map = new mapboxgl.Map({
@@ -90,6 +91,10 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
       // Add an event listener for the slider.
 
       // Add your geojson data source here.
+
+      // Add your popup event listener here.
+
+      // Add a mouseover event listener to the layer.
 
       // Add zoom and rotation controls to the map.
       map.addControl(new mapboxgl.NavigationControl());
@@ -183,6 +188,10 @@ The map script is contained inside a `<script>` tag and is made up of JavaScript
     // Add an event listener for the slider.
 
     // Add your geojson data source here.
+
+    // Add your popup event listener here.
+
+    // Add a mouseover event listener to the layer.
 
     // Add zoom and rotation controls to the map.
     map.addControl(new mapboxgl.NavigationControl());

@@ -20,6 +20,10 @@ For this to work, we will need to:
 3.  Add a **variable** for the slider and its status. A variable in JavaScript is something that holds a defined value.
 4.  Add an **event listener** for the slider to work with our layer. An event listener is a JavaScript method for how we make our web page respond to something, such as clicking on a button, moving a mouse over a transpareny slider control.
 
+## Define the Slider Style
+
+First we need to let our browser know how the slider should appear on the page, such as where to place it, how wide to make it, etc.
+
 `To Do`{:.info}
 
 - In VS Code, find the comment for the CSS of the controls in the `<head>`. Insert the following style just below the comment.
@@ -57,7 +61,11 @@ For this to work, we will need to:
 }
 ```
 
-- Add the container for the slider to be visible on the web map. Save and view the map in your browser. You should notice a new control in the top left of your map. It won't work until we've added the rest of the code to set it to work with our map layer.
+## Add Slider to Map
+
+The above styles won't actually make your slider appear on the page. To do that we need to add another container to the document's body.
+
+- In VS Code, add the container below to your web map.
 
 ```html
 <div class="map-overlay top">
@@ -67,6 +75,12 @@ For this to work, we will need to:
   </div>
 </div>
 ```
+
+- Save and view the map in your browser. You should notice a new control in the top left of your map, however it won't function properly until we've set it to work with our map layer.
+
+## Cr
+
+Now we're getting a little deeper into how JavaScript works with your document!
 
 - Add the variables for the slider and its status
 

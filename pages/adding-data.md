@@ -24,7 +24,7 @@ Mapbox Example: [Load data from an external GeoJSON file](https://docs.mapbox.co
     |
     ├── map.html
     |
-    └── export.geojson
+    └── snow_water_pumps.geojson
 
 ```
 
@@ -34,7 +34,7 @@ Mapbox Example: [Load data from an external GeoJSON file](https://docs.mapbox.co
 map.on("load", () => {
   map.addSource("datalayer", {
     type: "geojson",
-    data: "export.geojson", // be sure filename and path matches yours.
+    data: "snow_water_pumps.geojson", // be sure filename and path matches yours.
   });
   // add your layer and styles here
 });
@@ -53,16 +53,16 @@ Mapbox Documentation: [Style Spec Reference for Mapbox Layers](https://docs.mapb
 
 `To Do`{:.info}
 
-- If you are adding point data, add the text below to your map in VS Code. This will make the points appear as small blue circles with white strokes.
+- If you are adding **point** data, add the text below to your map in VS Code. This will make the points appear as small blue circles with white strokes.
 
 ```js
 map.addLayer({
-  id: "example",
+  id: "snow_water_pumps",
   type: "circle",
   source: "datalayer",
   layout: {},
   paint: {
-    "circle-radius": 4,
+    "circle-radius": 10,
     "circle-stroke-width": 2,
     "circle-color": "#88c0d0",
     "circle-stroke-color": "white",
@@ -78,7 +78,7 @@ map.addLayer({
 
 ```js
 map.addLayer({
-  id: "example",
+  id: "snow_water_pumps",
   type: "fill",
   source: "datalayer",
   layout: {},
@@ -97,7 +97,7 @@ map.addLayer({
 
 ```js
 map.addLayer({
-  id: "example",
+  id: "snow_water_pumps",
   type: "line",
   source: "datalayer",
   layout: {

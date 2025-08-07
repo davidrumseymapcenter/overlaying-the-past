@@ -88,8 +88,8 @@ In recent years, vector tiles have become the preferred tile type for web mappin
 - Supports the use of a variety of projections.
 - Access to underlying data properties.
 
-### Map Data
+### Data Overlays
 
-In this workshop, we're going to refer to the information you add to your base map as _map data_. Your base map works with your map data provide a geographic reference and your choice of style to your map.
+In this workshop, we're going to refer to the information you add to your base map as _data overlays_. Your base map works with your map data provide a geographic reference and your choice of style to your map.
 
 In this workshop, we're going to use geojson vector data (which was created in the workshop preceeding this one) and a separate xyz tileset comprising your georeferenced historical map.

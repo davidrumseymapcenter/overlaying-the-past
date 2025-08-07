@@ -36,7 +36,7 @@ The workshop aims to develop the fundamental knowledge and skills to begin shari
 | 0:45 | Base Maps    | What's important in a base map?<br>How do I add a base map?                                                                    |
 | 0:55 | Map Overlays | What are my options for adding historical map overlays?<br>How do I add an XYZ tileset?<br>How do I add a transparency slider? |
 | 1:05 | Map Data     | Which kinds of data can I add to my map?<br>How do I add a geojson layer?<br>How do I add a popup?                             |
-| 1:35 | Publishing   | What options do I have for sharing my web map in the web?<br>How can I host my map with Github?                                |
+| 1:35 | Publishing   | What options do I have for sharing my web map in the web?<br>How can I host my map with GitHub?                                |
 | 1:55 | Next Steps   | Where do I go for help?<br>What are your ideas for continuing on?                                                              |
 
 # Pre-Workshop Setup

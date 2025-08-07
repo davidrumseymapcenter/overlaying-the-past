@@ -8,6 +8,8 @@ webmap-workshop:
         url: /
       - title: Workshop
         url: /workshop/
+      - title: Glossary
+        url: /glossary/
   - title: Introduction
     children:
       - title: Web Mapping

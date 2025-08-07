@@ -16,7 +16,7 @@ You can create your own tile set from a georeferenced map using the beloved [Geo
 
 ![GDAL Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/GDALLogoColor.svg/200px-GDALLogoColor.svg.png?20080323200139 "Geospatial Data Abstraction Library")
 
-<sub><sup>[Copyright © GDAL Team](https://commons.wikimedia.org/wiki/File:GDALLogoColor.svg). [Used under CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sup></sub>
+<div style="text-align: center;"><sub><sup>[Copyright © GDAL Team](https://commons.wikimedia.org/wiki/File:GDALLogoColor.svg). [Used under CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)</sup></sub></div>
 
 ## Web Map Services (WMS)
 

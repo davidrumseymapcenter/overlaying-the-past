@@ -39,7 +39,7 @@ map.on("click", "snow_water_pumps", (e) => {
 
 Notice that the map's cursor doesn't change like it would normally when hovering over a link. A changing cursor improves user experience and interactivity by giving a clear visual signal that something on the map is clickable or interactive. Let's add this functionality to our map.
 
-The code below changes your cursor to a pointer when hovering over a point, then
+The code below changes your cursor to a pointer when hovering over a point, then back to the default "grab hand".
 
 `To Do`{:.info}
 
@@ -58,3 +58,7 @@ map.on("mouseleave", "snow_water_pumps", () => {
   map.getCanvas().style.cursor = "";
 });
 ```
+
+- Save the file and view the changes in your browser.
+
+Congrats! You made a cool interactive map!

@@ -62,3 +62,5 @@ map.on("mouseleave", "snow_water_pumps", () => {
 - Save the file and view the changes in your browser.
 
 Congrats! You made a cool interactive map!
+
+ <iframe height="600px" width="100%" src="/overlaying-the-past/maps/map05.html" title="Example webmap with historical map overlay and clickable data"></iframe>

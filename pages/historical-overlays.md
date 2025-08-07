@@ -36,6 +36,9 @@ map.on("load", () => {
 });
 ```
 
+- Edit the `[annotation ID]` text with your map's ID, or paste a new full tile url.
+- Change `yourID` with something more descriptive, like `sanFrancisco`. Don't use spaces. This is the source's ID, which is also the source of the layer.
+
 #### Using John Snow's map:
 
 ```js
@@ -55,8 +58,6 @@ map.on("load", () => {
 });
 ```
 
-- Edit the `[annotation ID]` text with your map's ID, or paste a new full tile url.
-- Change `yourID` with something more descriptive, like `sanFrancisco`. Don't use spaces. This is the source's ID, which is also the source of the layer.
 - Save your map and view the changes in the browser.
 
 The recommended way to add an Allmaps tile source is by using an Allmaps plugin, which will reduce the burden on the Allmaps tile servers and load maps faster. Unfortunately, there are no such plugin for Mapbox. There are currently plugins integrating Allmaps with [OpenLayers](https://github.com/allmaps/allmaps/tree/main/packages/openlayers){:target="\_blank"}, [MapLibre](https://github.com/allmaps/allmaps/tree/main/packages/maplibre) and [Leaflet](https://github.com/allmaps/allmaps/tree/main/packages/leaflet). Implemeting these plugins and will be the theme of a future workshop.

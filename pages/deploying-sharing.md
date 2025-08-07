@@ -17,7 +17,7 @@ Before we move our map into the web, be sure that you're not using your Mapbox d
 
 - Save your map in VS Code to verify everything looks good in your browser.
 - [Log into your GitHub account](https://github.com/login){:target="_blank"} and go to your repository you set up for this workshop. You may need to click on your profile image in the top right and select \*\*\_Repositories_\*\* to see your list.
-- _Drag and drop_ your `map.html` and `export.geojson` file into your repository. You will be asked to add a commit message – asdd a short description.
+- _Drag and drop_ your `map.html` and `snow_water_pumps.geojson` file into your repository. You will be asked to add a commit message – add a short description.
 - In GitHub, click on **_Settings_** in the top menu bar.
 - On the left side navigation, click **_Pages_**.
 - Under _Branch_ select **_main_** from the dropdown, assuming you have no other branches. Click **_Save_**

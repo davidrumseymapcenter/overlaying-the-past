@@ -24,7 +24,9 @@ By this time in the workshop you've already installed VS Code and set up the Liv
 3. In VS Code, open this folder by selecting **File < Open Folder**.
 4. In the VS Code file explorer, select the file **map.html** so that it's showing on your screen.
 5. Replace the dummy text with your new Mapbox access token, and save the file.
-6. In VS Code, select **Go Live** to launch this file in a local server.
+6. In VS Code, select **Go Live** in the bottom right corner of your VS Code window to launch this file in a local server.
+
+![Go Live!](../../assets/images/golive.png "Going Live!")
 
 Once you've done this, you should see a web map in your browser and its source code in VS Code.
 
